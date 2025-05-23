@@ -4,8 +4,9 @@ public:
         int i =0;
         while(i!=nums.size()){
             if(nums[i]==original){
-                i = 0;
+                
                 original *= 2;
+                i = 0;
             }
             else i++;
         }
