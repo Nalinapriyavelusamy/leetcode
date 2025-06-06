@@ -12,8 +12,8 @@ public:
              if(j>=0)
             sum = sum+(b[j--]=='1'?1:0);
             carry = sum/2;
-            char bit = (sum%2==1)?'1':'0';
-          result.push_back(bit);
+            char num = (sum%2==1)?'1':'0';
+          result.push_back(num);
         }
         reverse(result.begin(),result.end());
         return result;
