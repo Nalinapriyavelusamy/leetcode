@@ -16,9 +16,9 @@ public:
             int curr = romanMap[s[i]];
 
             if (curr < prev)
-                total -= curr;
+                total =total - curr;
             else
-                total += curr;
+                total =total+curr;
 
             prev = curr;
         }
